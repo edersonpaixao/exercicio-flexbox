@@ -1,0 +1,402 @@
+@import url(style.css);
+
+/* EXERCÍCIOS CSS FLEXBOX */
+/* ESCREVA SEU CSS ABAIXO UTILIZANDO AS ESTRUTURAS EXIXTENTES 
+*/
+
+
+/* EXERCÍCIO 01 */
+.exercicio1 {
+    margin-top: 40px;
+}
+
+.exercicio1 .flex-container {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px gray;
+}
+
+.exercicio1 .flex-item {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+
+/* EXERCÍCIO 02 */
+.exercicio2 {
+    margin-top: 40px;
+}
+
+.exercicio2 .flex-container {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px gray; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    gap: 40px 40px;
+}
+
+.exercicio2 .flex-item {
+    width: 100%;
+    height: 50%;
+    background-color: red;   
+}
+ 
+.exercicio2 .flex-item-A {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;   
+}
+ 
+
+/* EXERCÍCIO 03 */
+.exercicio3 {
+    margin-top: 40px;
+}
+
+.exercicio3 .flex-container {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px gray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    align-items: stretch;
+    gap: 0 40px;
+}
+
+.exercicio3 .flex-item {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    padding: 40px;
+}
+ 
+.exercicio3 .flex-item-A {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    padding: 40px;
+}
+
+/* EXERCÍCIO 04 */
+.exercicio4 {
+    margin-top: 40px;
+}
+
+.exercicio4 .flex-container {
+    width: 400px;
+    height: 400px; 
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px gray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap:wrap;
+}
+
+.exercicio4 .flex-item-A {
+    width: 200px;
+    height: 200px;
+    background-color: red;  
+}
+.exercicio4 .flex-item-B {
+    width: 200px;
+    height: 200px;
+    background-color: blue;  
+}
+.exercicio4 .flex-item-C {
+    width: 200px;
+    height: 200px;
+    background-color: green;  
+}
+.exercicio4 .flex-item-D {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;  
+}
+
+
+/* EXERCÍCIO 05 */
+.exercicio5 {
+    margin-top: 40px;
+}
+
+.exercicio5 .flex-container {
+    width: 400px;
+    height: 400px; 
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px gray; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap:wrap;
+}
+ 
+.exercicio5 .flex-item-A {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100% 0 0 0;  
+}
+.exercicio5 .flex-item-B {
+    width: 200px;
+    height: 200px;
+    background-color: blue;  
+    border-radius: 0 100% 0 0;
+}
+.exercicio5 .flex-item-C {
+    width: 200px;
+    height: 200px;
+    background-color: green; 
+    border-radius:  0 0 0 100%; 
+}
+.exercicio5 .flex-item-D {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 0 0 100% 0;  
+}
+
+/* EXERCÍCIO 06 */
+.exercicio6 {
+    margin-top: 40px;
+}
+
+.exercicio6 .flex-container {
+    width: 400px;
+    height: 400px; 
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px gray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap:wrap;
+}
+
+.exercicio6 .flex-item-A {
+    width: 200px;
+    height: 200px;  
+    background-color: red; 
+    border-radius: 100%;
+}
+.exercicio6 .flex-item-B {
+    width: 200px;
+    height: 200px;  
+    background-color: blue; 
+    border-radius: 100%;
+}
+.exercicio6 .flex-item-C {
+    width: 200px;
+    height: 200px;  
+    background-color: green; 
+    border-radius: 100%;
+}
+.exercicio6 .flex-item-D {
+    width: 200px;
+    height: 200px;  
+    background-color: yellow; 
+    border-radius: 100%;
+}
+
+
+/* EXERCÍCIO 07 */
+.exercicio7 {
+    margin-top: 40px;
+}
+
+.exercicio7 .flex-container {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px gray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap:wrap;
+
+    gap: 40px;
+}
+
+.exercicio7 .flex-item-A {
+    width: 140px;
+    height: 140px;
+    background-color: red;
+}
+.exercicio7 .flex-item-B {
+    width: 140px;
+    height: 140px;
+    background-color: blue;
+}
+.exercicio7 .flex-item-C {
+    width: 140px;
+    height: 140px;
+    background-color: green;
+}
+.exercicio7 .flex-item-D {
+    width: 140px;
+    height: 140px;
+    background-color: yellow;
+}
+
+
+/* EXERCÍCIO 08 */
+.exercicio8 {
+    margin-top: 40px;
+}
+
+.exercicio8 .flex-container {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px gray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap:wrap;
+
+    gap: 40px;
+}
+
+.exercicio8 .flex-item-A {
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    border-radius: 100%;
+}
+.exercicio8 .flex-item-B{
+    width: 140px;
+    height: 140px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.exercicio8 .flex-item-C {
+    width: 140px;
+    height: 140px;
+    background-color: green;
+    border-radius: 100%;
+}
+.exercicio8 .flex-item-D {
+    width: 140px;
+    height: 140px;
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+
+/* EXERCÍCIO 09 */
+.exercicio9 {
+    margin-top: 40px;
+}
+
+.exercicio9 .flex-container {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px gray;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap:wrap;
+
+    gap: 40px;
+}
+
+.exercicio9 .flex-item-A {
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    border-radius: 100% 0 0 0;
+}
+.exercicio9 .flex-item-B {
+    width: 140px;
+    height: 140px;
+    background-color: blue;
+    border-radius: 0 100% 0 0;
+}
+.exercicio9 .flex-item-C {
+    width: 140px;
+    height: 140px;
+    background-color: green;
+    border-radius: 0 0 0 100%;
+}
+.exercicio9 .flex-item-D {
+    width: 140px;
+    height: 140px;
+    background-color: yellow;
+    border-radius: 0 0 100% 0;
+}
+
+/* EXERCÍCIO 10 */
+.exercicio10 {
+    margin-top: 40px;
+}
+
+.exercicio10 .flex-container {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px gray;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap:wrap;
+
+    gap: 40px;
+}
+
+.exercicio10 .flex-item-A {
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    border-radius:  0 100%;  
+}
+.exercicio10 .flex-item-B {
+    width: 140px;
+    height: 140px;
+    background-color: blue;
+    border-radius: 100% 0 ;  
+}
+.exercicio10 .flex-item-C {
+    width: 140px;
+    height: 140px;
+    background-color: green;
+    border-radius: 100% 0 ;  
+}
+.exercicio10 .flex-item-D {
+    width: 140px;
+    height: 140px;
+    background-color: yellow;
+    border-radius:  0 100%;  
+}
